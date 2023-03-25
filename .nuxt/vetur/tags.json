@@ -1,0 +1,20 @@
+{
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "LazyLogo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "NavBar": {
+    "description": "Auto imported from components/NavBar.vue"
+  },
+  "LazyNavBar": {
+    "description": "Auto imported from components/NavBar.vue"
+  },
+  "SocialLink": {
+    "description": "Auto imported from components/SocialLink.vue"
+  },
+  "LazySocialLink": {
+    "description": "Auto imported from components/SocialLink.vue"
+  }
+}
