@@ -2,29 +2,29 @@
   {
     "name": "About",
     "path": "/About",
-    "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\portfolio-master\\\\pages\\\\About.vue",
+    "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\MyPortfolio\\\\pages\\\\About.vue",
     "chunkName": "pages/About",
-    "_name": "_ab3aa63e"
+    "_name": "_f3c592b8"
   },
   {
     "name": "Contact",
     "path": "/Contact",
-    "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\portfolio-master\\\\pages\\\\Contact.vue",
+    "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\MyPortfolio\\\\pages\\\\Contact.vue",
     "chunkName": "pages/Contact",
-    "_name": "_c2306618"
+    "_name": "_7626f1f7"
   },
   {
     "name": "Projects",
     "path": "/Projects",
-    "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\portfolio-master\\\\pages\\\\Projects.vue",
+    "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\MyPortfolio\\\\pages\\\\Projects.vue",
     "chunkName": "pages/Projects",
-    "_name": "_2d92bf56"
+    "_name": "_3e383ab3"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\portfolio-master\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\MyPortfolio\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_52a867c6"
+    "_name": "_2e62f189"
   }
 ]

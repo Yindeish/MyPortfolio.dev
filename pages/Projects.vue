@@ -137,6 +137,15 @@ export default {
 };
 </script>
 <style scoped>
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  background-color: red;
+}
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background-color: red;
+}
 .row {
   margin-top: 70px;
 }

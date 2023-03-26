@@ -89,7 +89,7 @@ export default {
   data() {
     return {
       avatar: require("@/assets/avatar-1.webp"),
-      // ADD YOUR SOCIAL LINKS HERE 👇
+      // SOCIAL LINKS 👇
       socialLinks: {
         github: "http://github.com/Yindeish",
         linkedin: "https://www.linkedin.com/in/adam-adeshina-47b4a4246",
@@ -145,3 +145,4 @@ export default {
   }
 };
 </script>
+
