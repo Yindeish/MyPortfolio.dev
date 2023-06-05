@@ -166,8 +166,10 @@ export default {
   margin-top: 0px;
 }
 .contact {
+  margin: 0px;
   margin-top: 0px;
   gap: 2em;
+  width: 100%;
 }
 video {
   width: 100%;

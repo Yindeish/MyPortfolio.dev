@@ -21,7 +21,7 @@
           class="moon-icon"
           title="Toggle Darkmode"
         >
-          <SunnyIcon style="color: #eee;font-size: 20px;" />
+          <SunnyIcon style="color: #000;font-size: 20px;" />
         </b-nav-item>
         <b-nav-item
           href="#"
@@ -30,7 +30,7 @@
           class="moon-icon"
           title="Toggle Darkmode"
         >
-          <MoonIcon style="color: #000;font-size: 20px;" />
+          <MoonIcon style="color: #eee;font-size: 20px;" />
         </b-nav-item>
       </b-navbar-nav>
     </b-collapse>
