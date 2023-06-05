@@ -103,16 +103,14 @@ export default {
       data.append("Name", self.formData.name);
       data.append("Email", self.formData.email);
       data.append("Message", self.formData.message);
-
-      return new Promise((resolve, reject) => {
-        const xhr = new XMLHttpRequest();
-        xhr.open("POST", 'https://myportfoliomessages-b01c5-default-rtdb.firebaseio.com/messages.json');
-        // xhr.withCredentials = true;
-        xhr.responseType = 'json';
-        xhr.setRequestHeader('Content-Type', 'application/json');
-        xhr.onload = () => {
-          if( xhr.status >= 200 || xhr.status < 300) {
-            resolve(xhr.response);
+      try {
+        const response = fetch('https://myportfoliomessages-b01c5-default-rtdb.firebaseio.com/messages.json', {
+          method: 'POST',
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data)
+        })
+        console.log(response);
+        if( response.ok ) {
             this.showAlert = true;
             this.alertMsg = 
             /*html*/ 
@@ -129,33 +127,12 @@ export default {
             setTimeout(() => {
               this.showAlert = false;
             }, 3000)
-          } else {
-            reject(xhr.response);
-            this.showAlert = true;
-            this.alertMsg = xhr.response;
-            setTimeout(() => {
-              this.showAlert = false;
-            }, 3000)
-          }
         }
-
-        xhr.onerror = () => {
-          resolve("You are offline");
-          this.showAlert = true;
-          this.alertMsg = "You are offline";
-          setTimeout(() => {
-              this.showAlert = false;
-            }, 3000)
-        }
-
-        xhr.send(JSON.stringify(data));
-      })
-      .then(res => {
-        this.encription = res.name;
-      })
-      .catch(err => {
+        const data = await response.json();
+        console.log(data);
+      } catch(err) {
         this.alertMsg = err;
-      })
+      }
     }
   },
   head: {

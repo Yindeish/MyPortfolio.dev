@@ -46,7 +46,8 @@ export default {
           title: "Weather App",
           tag: "Progressive Web App",
           description:
-            "It feeds the current weather details of over 20,000 cites across the wide world",
+           `
+           This is a weather app that was built with native JavaScript.It's capable of providing weather details for over 20,000 cities worldwide. It exploys the OpenWeatherMap to fetch weather data and display it to the user. It also has a feature that allows the user.`,
           image_cover: require("@/assets/speak.jpg"),
           github_url: "https://github.com/Yindeish/WeatherAppJS-X",
           link: "https://weather-app-xx.netlify.app"
@@ -55,7 +56,8 @@ export default {
           title: "Hasuq tek Mobile Web App",
           tag: "Progressive Web App",
           description:
-            "This app was tailored to help a particular user purchase wide range of gadgets from hasuqtek.com. It works like jumia.",
+            `
+            Hasuqtek is a sophisticated e-commerce web application meticulously crafted using Vue.js. Leveraging Vue's powerful features, it provides a robust platform for users to explore, compare, and purchase a wide array of gadgets online. It works just like jumia`,
           image_cover: require("@/assets/speak.jpg"),
           github_url: "https://github.com/Yindeish/WeatherAppJS-X",
           link: "https://weather-app-xx.netlify.app"
@@ -64,7 +66,10 @@ export default {
           title: "Calculator",
           tag: "Calculator Web App",
           description:
-            "Does the operations of a regular mobile default calculator",
+            `
+            The main display of the calculator app consists of a digital screen where the numbers and results are displayed. The app supports the standard arithmetic operations such as addition, subtraction, multiplication, and division.
+            The calculator app utilizes JavaScript to handle user interactions and perform the necessary calculations. It uses event listeners to detect button clicks and updates the display accordingly. The JavaScript code includes functions for each operation, allowing the app to process user input accurately.
+            `,
           image_cover: require("@/assets/illustration.jpg"),
           github_url: "https://github.com/Yindeish/calculator-x",
           link: "https://calculator-xx.netlify.app"

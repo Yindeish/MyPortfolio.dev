@@ -3,28 +3,24 @@
     "name": "About",
     "path": "/About",
     "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\MyPortfolio\\\\pages\\\\About.vue",
-    "chunkName": "pages/About",
-    "_name": "_f3c592b8"
+    "chunkName": "pages/About"
   },
   {
     "name": "Contact",
     "path": "/Contact",
     "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\MyPortfolio\\\\pages\\\\Contact.vue",
-    "chunkName": "pages/Contact",
-    "_name": "_7626f1f7"
+    "chunkName": "pages/Contact"
   },
   {
     "name": "Projects",
     "path": "/Projects",
     "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\MyPortfolio\\\\pages\\\\Projects.vue",
-    "chunkName": "pages/Projects",
-    "_name": "_3e383ab3"
+    "chunkName": "pages/Projects"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\hp\\\\Desktop\\\\MyPortfolio\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_2e62f189"
+    "chunkName": "pages/index"
   }
 ]
