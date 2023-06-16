@@ -51,10 +51,6 @@
             <TwitterIcon />
           </social-link>
 
-          <social-link :to="socialLinks.facebook">
-            <FacebookIcon />
-          </social-link>
-
           <social-link :to="socialLinks.mail">
             <MailIcon />
           </social-link>
@@ -72,8 +68,6 @@
 import GithubIcon from "vue-ionicons/dist/logo-github.vue";
 import LinkedinIcon from "vue-ionicons/dist/logo-linkedin.vue";
 import TwitterIcon from "vue-ionicons/dist/logo-twitter.vue";
-import FacebookIcon from "vue-ionicons/dist/logo-facebook.vue";
-import YoutubeIcon from "vue-ionicons/dist/logo-youtube.vue";
 import MailIcon from "vue-ionicons/dist/md-mail.vue";
 
 export default {
@@ -81,8 +75,6 @@ export default {
     GithubIcon,
     LinkedinIcon,
     TwitterIcon,
-    FacebookIcon,
-    YoutubeIcon,
     MailIcon
   },
 
@@ -94,9 +86,7 @@ export default {
         github: "http://github.com/Yindeish",
         linkedin: "https://www.linkedin.com/in/adam-adeshina-47b4a4246",
         twitter: " https://twitter.com/Yindeish08?t=OiWt6tO8RX77oot-z8c8cA&s=08",
-        facebook: "https://facebook.com/AdeshinaAdam",
         mail: "mailto:Adeshinaadam03@gmail.com",
-        youtube: ""
       }
     };
   },
