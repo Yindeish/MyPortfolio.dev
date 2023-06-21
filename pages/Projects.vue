@@ -75,23 +75,23 @@ export default {
     }
   },
   head: {
-    title: "Recent Projects 💻 - Adeshina Adam",
+    title: "Recent Projects 💻 - Adeshina UmarFaruq",
     meta: [
       {
         hid: "description",
         name: "description",
         content:
-          "View all the recents open-sourced projects built with ♥ by Adeshina Adam, open-sourced means this project source code are publicly available for everyone to use or modify."
+          "View all the recents open-sourced projects built with ♥ by Adeshina UmarFaruq, open-sourced means this project source code are publicly available for everyone to use or modify."
       },
       {
         hid: "og:title",
         name: "og:title",
-        content: "Recent Projects 💻 - Adeshina Adam"
+        content: "Recent Projects 💻 - Adeshina UmarFaruq"
       },
       {
         property: "og:description",
         content:
-          "View all the recents open-sourced projects built with ♥ by Adeshiina Adam, open-sourced means this project source code are publicly available for everyone to use or modify."
+          "View all the recents open-sourced projects built with ♥ by Adeshiina UmarFaruq, open-sourced means this project source code are publicly available for everyone to use or modify."
       },
       {
         hid: "og:image",

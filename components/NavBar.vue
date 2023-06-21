@@ -1,7 +1,7 @@
 <template>
   <b-navbar toggleable="lg" fixed="top" type="light" variant="light">
     <b-navbar-brand tag="h1" to="/" style="font-weight: bolder;"
-      >&lt;Yindeish/&gt;</b-navbar-brand
+      ><span>UI&#123;</span><span> UmarFaruq </span><span>&#125;UX</span></b-navbar-brand
     >
     <b-navbar-toggle
       target="nav-collapse"
