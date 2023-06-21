@@ -1,6 +1,6 @@
 <template>
   <div class="about page  animate__animated animate__fadeIn">
-    <h2>Recent Project</h2>
+    <h2>Recent Projects</h2>
     <div class="container">
       <div class="row" v-for="(project, index) in projects" :key="index">
         <div class="col-md-5">
@@ -19,10 +19,6 @@
             <p>{{ project.description }}</p>
             <b-link :href="project.link"
               >Check it out! <LinkIcon style="color: #000;"
-            /></b-link>
-            <hr />
-            <b-link :href="project.github_url"
-              >View source code <GithubIcon style="color: #000;"
             /></b-link>
           </b-card>
         </div>
@@ -43,64 +39,29 @@ export default {
     return {
       projects: [
         {
-          title: "Weather App",
-          tag: "Progressive Web App",
+          title: "The Excellent Project",
+          tag: "The Excellent Project",
           description:
-           `
-           This is a weather app that was built with native JavaScript.It's capable of providing weather details for over 20,000 cities worldwide. It exploys the OpenWeatherMap to fetch weather data and display it to the user. It also has a feature that allows the user.`,
-          image_cover: require("@/assets/speak.jpg"),
-          github_url: "https://github.com/Yindeish/WeatherAppJS-X",
-          link: "https://weather-app-xx.netlify.app"
+            "It feeds the current weather details of over 20,000 cites across the wide world",
+          image_cover: require("@/assets/WhatsApp Image 2023-06-10 at 9.43.31 AM.jpeg"),
+          link: "https://www.behance.net/gallery/165722659/Excellent-App"
         },
         {
-          title: "Hasuq tek Mobile Web App",
-          tag: "Progressive Web App",
+          title: "The Vulte Project",
+          tag: "The Redesign",
           description:
-            `
-            Hasuqtek is a sophisticated e-commerce web application meticulously crafted using Vue.js. Leveraging Vue's powerful features, it provides a robust platform for users to explore, compare, and purchase a wide array of gadgets online. It works just like jumia`,
-          image_cover: require("@/assets/speak.jpg"),
-          github_url: "https://github.com/Yindeish/WeatherAppJS-X",
-          link: "https://weather-app-xx.netlify.app"
+            "This app was tailored to help a particular user purchase wide range of gadgets from hasuqtek.com. It works like jumia.",
+          image_cover: require("@/assets/WhatsApp Image 2023-06-10 at 9.44.05 AM.jpeg"),
+          link: "https://www.behance.net/gallery/162716067/A-Redesign-of-Vulte-App"
         },
         {
-          title: "Calculator",
-          tag: "Calculator Web App",
+          title: "The Fike Project",
+          tag: "The Fike Project",
           description:
-            `
-            The main display of the calculator app consists of a digital screen where the numbers and results are displayed. The app supports the standard arithmetic operations such as addition, subtraction, multiplication, and division.
-            The calculator app utilizes JavaScript to handle user interactions and perform the necessary calculations. It uses event listeners to detect button clicks and updates the display accordingly. The JavaScript code includes functions for each operation, allowing the app to process user input accurately.
-            `,
-          image_cover: require("@/assets/illustration.jpg"),
-          github_url: "https://github.com/Yindeish/calculator-x",
-          link: "https://calculator-xx.netlify.app"
+            "Does the operations of a regular mobile default calculator",
+          image_cover: require("@/assets/WhatsApp Image 2023-06-10 at 9.44.52 AM.jpeg"),
+          link: "https://www.behance.net/gallery/161704847/Fike-online-sneakers-store"
         },
-        {
-          title: "Appland",
-          tag: "Website",
-          description:
-            "Appland landing page",
-          image_cover: require("@/assets/qr-1.png"),
-          github_url: "https://github.com/Yindeish/Appland",
-          link: "https://appland-x.netlify.app"
-        },
-        {
-          title: "Iqdoo",
-          tag: "Website",
-          description:
-            "It's a platform for administrating people who aspire to learn web development",
-          image_cover: require("@/assets/qr-1.png"),
-          github_url: "https://github.com/Yindeish/iqdoo-website",
-          link: "https://iqdoo.netlify.app"
-        },
-        {
-          title: "Dinamixtech",
-          tag: "Website",
-          description:
-            "It's the Dinamixtech official site. Dinamixtech deals in building many varieties of electronic appliances, home appliances for example.",
-          image_cover: require("@/assets/qr-1.png"),
-          github_url: "https://github.com/Yindeish/Dinamixtech",
-          link: "https://iqdoo.netlify.app"
-        }
       ],
     };
   },

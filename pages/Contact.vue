@@ -1,7 +1,8 @@
 <template>
   <b-row class="contact">
-  <video src="../assets/videos/WhatsApp Video 2023-03-25 at 2.43.05 PM.mp4" autoplay loop></video>
-  <b-container class="page animate__animated animate__fadeIn">
+    <!-- <video width="100%" src="../assets/videos/WhatsApp Video 2023-03-25 at 2.43.05 PM.mp4" autoplay loop></video> -->
+    <img class="contact-image" src="@/assets/WhatsApp Image 2023-06-14 at 6.05.34 PM.jpeg" alt="contact image">
+    <b-container class="page animate__animated animate__fadeIn">
     <b-row class="justify-content-center">
       <b-col cols="md-6">
         <h2>Get in touch 💌</h2>
@@ -39,7 +40,7 @@
               v-model="formData.message"
               no-resize
               rows="3"
-              placeholder="Watsup Yindeish, are you available for.."
+              placeholder="Watsup Umar, are you available for.."
               required
             ></b-form-textarea>
           </b-form-group>
@@ -136,21 +137,21 @@ export default {
     }
   },
   head: {
-    title: "Contact 📧 - Adeshina Adam",
+    title: "Contact 📧 - Adeshina Umar-Faruq",
     meta: [
       {
         hid: "description",
         name: "description",
-        content: "Do you have any enquires? Send a message now to Adam"
+        content: "Do you have any enquires? Send a message now to Umar"
       },
       {
         hid: "og:title",
         name: "og:title",
-        content: "Contact 📧 - Adeshina Adam"
+        content: "Contact 📧 - Adeshina umar"
       },
       {
         property: "og:description",
-        content: "Do you have any enquires? Send a message now to Adam"
+        content: "Do you have any enquires? Send a message now to Umar"
       },
       {
         hid: "og:image",
@@ -171,8 +172,13 @@ export default {
   gap: 2em;
   width: 100%;
 }
-video {
+.contact-image {
   width: 100%;
+  height: fit-content;
+  object-fit: contain;
+  object-position: center;
+  border-radius: unset;
+  cursor: unset;
 }
 form {
   margin-top: 40px;
