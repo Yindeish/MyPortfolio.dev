@@ -43,7 +43,7 @@ export default {
           tag: "The Excellent Project",
           description:
             "It feeds the current weather details of over 20,000 cites across the wide world",
-          image_cover: require("@/assets/WhatsApp Image 2023-06-10 at 9.43.31 AM.jpeg"),
+          image_cover: require("@/assets/WhatsApp Image 2023-06-23 at 11.02.27 PM.jpeg"),
           link: "https://www.behance.net/gallery/165722659/Excellent-App"
         },
         {
@@ -61,6 +61,14 @@ export default {
             "Does the operations of a regular mobile default calculator",
           image_cover: require("@/assets/WhatsApp Image 2023-06-10 at 9.44.52 AM.jpeg"),
           link: "https://www.behance.net/gallery/161704847/Fike-online-sneakers-store"
+        },
+        {
+          title: "The FATEMSA Project",
+          tag: "The FATEMSA Project",
+          description:
+            "Designed a platform that empowers Muslim students in tech at the Faculty of Engineering, OAU",
+          image_cover: require("@/assets/WhatsApp Image 2023-06-23 at 10.55.37 AM.jpeg"),
+          link: "https://www.figma.com/proto/biykndMccRhQwOOODBSdWJ?node-id=33-732&starting-point-node-id=28:709&locale=en"
         },
       ],
     };

@@ -4,13 +4,16 @@
       <div class="col-md-6">
         <div class="about">
           <h1 class="line-after">About Me</h1>
-          <h4 class="mt-4">Hey 
-            <span 
-            class="action-btn animate__animated animate__wobble animate__delay-1s animate__fast"
-            >👋</span>
-          </h4>
+          
           <p>
-            Hey there 👋 My name is Adeshina Umar-faruq, I am a <b>product designer</b> and technical writer finished studying <b>Computer Engineering</b> from the <b>LASUSTECH(Nigeria)</b>. I have over 2 years of experience in designing eye-catching designs and desired user experience flows.
+            <br />
+            To enhance my skills in UI design, I pursued a product design diploma course at AltSchool Africa. This experience provided me with invaluable insights into understanding user preferences, strategizing based on user research reports, and developing visually appealing designs that are both useful and usable.
+            <br />
+            In my role as a designer, I have collaborated with startups to create problem-solving designs. One of my notable achievements was contributing to the development of a platform that caters to the needs of Muslim students in the tech field. By deeply understanding their specific requirements, we created an effective and engaging platform, which has furthered my professional growth.
+            <br />
+            While I am deeply passionate about my work, I acknowledge the need to strike a balance between meticulous attention to detail and overall design success. I’m excited to see where my career takes me next and I’m always looking for opportunities to learn and grow.
+            <br />
+            During my leisure time, I indulge in watching football highlights and movies, with a particular fondness for K-dramas.
           </p>
           <h4 class="mt-5">Tech Stacks</h4>
           <p>Below are some of the technologies I use daily:</p>
@@ -24,7 +27,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6" style="position: fixed; right: 0px;">
         <img
           src="@/assets/working.png"
           alt="About Illustration"

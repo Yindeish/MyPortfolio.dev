@@ -12,23 +12,19 @@
 
     <b-col md="8">
       <h2 class="intro animate__animated animate__fadeInUp animate__fast">
-        Hi <span
-        class="action-btn animate__animated animate__wobble animate__delay-3s animate__fast"
-        >👋</span>,
-        <br />I<span>'m Adeshina&nbsp;Umar-Faruq  </span>.
+        Hi I<span>'m Adeshina&nbsp;Umar-Faruq  </span>.
       </h2>
 
       <div class="col-md-10 info">
-        A <b>product designer</b>. My name is Umar-faruq, I’m a self-taught product designer with 2 years of experience based in Lagos, Nigeria. I’m currently working as a freelancer at <b>HasuqTek.</b>
+        A <b>product designer</b>. <br />
+        I’m a self-taught product designer experienced in crafting intuitive and user-friendly designs currently surviving Lagos, Nigeria. 
+        <br />
         <b-button
           class="action-btn animate__animated animate__wobble animate__delay-4s animate__fast"
           to="/projects"
+          style="background-color: dodgerblue;"
         >
-          Explore >
-        </b-button>
-
-        <b-button class="action-btn" to="/contact" variant="primary">
-          Get In Touch
+          My Work >
         </b-button>
 
         <!-- .SOCIAL LINKS SECTION -->
@@ -80,7 +76,7 @@ export default {
       // SOCIAL LINKS 👇
       socialLinks: {
         linkedin: " https://www.linkedin.com/in/umar-faruq-adeshina-792b31232",
-        twitter: "  https://twitter.com/fqior147?s=21",
+        twitter: "https://twitter.com/designerumar147?s=21",
         facebook: "https://facebook.com/AdeshinaAdam",
         mail: "mailto:Adeshinaadam03@gmail.com",
         behance: 'https://www.behance.net/d4262b26',

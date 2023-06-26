@@ -1,7 +1,7 @@
 <template>
   <b-navbar toggleable="lg" fixed="top" type="light" variant="light">
     <b-navbar-brand tag="h1" to="/" style="font-weight: bolder;"
-      ><span>UI&#123;</span><span> UmarFaruq </span><span>&#125;UX</span></b-navbar-brand
+      ><span>UI&#123;</span><span> UmarDesigner </span><span>&#125;UX</span></b-navbar-brand
     >
     <b-navbar-toggle
       target="nav-collapse"
@@ -13,7 +13,6 @@
         <b-nav-item to="/">Home</b-nav-item>
         <b-nav-item to="/about">About</b-nav-item>
         <b-nav-item to="/projects">Projects</b-nav-item>
-        <b-nav-item to="/contact">Contact Me</b-nav-item>
         <b-nav-item
           href="#"
           v-if="themeMode == 'dark'"
@@ -95,13 +94,19 @@ export default {
   margin: 15px;
   border-radius: 2px;
 }
-.nav-link a {
+.nav-link {
   color: #000 !important;
   text-decoration: none;
 }
-.nav-item:hover,
-.nuxt-link-exact-active {
-  background: rgb(243, 240, 240);
+
+.nav-link:hover,
+.nav-link:active {
+  color: dodgerblue !important;
+}
+
+.navbar-nav .nuxt-link-exact-active
+{
+  color: dodgerblue !important;
 }
 .moon-icon {
   color: #000;
