@@ -99,6 +99,10 @@ export default {
   text-decoration: none;
 }
 
+.navbar-dark .nav-link {
+  color: #fff !important;
+}
+
 .nav-link:hover,
 .nav-link:active {
   color: dodgerblue !important;
