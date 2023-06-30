@@ -1,7 +1,7 @@
 <template>
   <b-navbar toggleable="lg" fixed="top" type="light" variant="light">
     <b-navbar-brand tag="h1" to="/" style="font-weight: bolder;"
-      ><span>UI&#123;</span><span> UmarDesigner </span><span>&#125;UX</span></b-navbar-brand
+      ><span> UmarDesigner </span></b-navbar-brand
     >
     <b-navbar-toggle
       target="nav-collapse"
@@ -64,6 +64,9 @@ export default {
         document.querySelector("nav").classList.toggle("navbar-dark");
         document.querySelector("nav").classList.toggle("bg-dark");
         this.themeMode = "dark";
+        document.body.style.backgroundImage = "url(/_nuxt/assets/bg.svg)";
+        document.body.style.backgroundColor = "unset";
+
       } else {
         localStorage.themeMode = "light";
         document.body.classList.toggle("dark");
@@ -72,6 +75,8 @@ export default {
         document.querySelector("nav").classList.toggle("bg-dark");
         document.querySelector("nav").classList.toggle("navbar-light");
         document.querySelector("nav").classList.toggle("bg-light");
+        document.body.style.backgroundImage = "unset";
+        document.body.style.backgroundColor = "#0A192F";
       }
     }
   },
@@ -81,6 +86,10 @@ export default {
 };
 </script>
 <style scoped>
+.dark-theme {
+  background-image: unset;
+  background-color: #0A192F;
+}
 .navbar-nav {
   margin-left: 100px;
 }

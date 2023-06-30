@@ -5,6 +5,7 @@
       <div class="row" v-for="(project, index) in projects" :key="index">
         <div class="col-md-5">
           <img
+            id="project-cover"
             :src="project.image_cover"
             :alt="project.title"
             class="project-cover"
@@ -18,8 +19,7 @@
           <b-card class="mt-3 mb-3 text-left text-dark">
             <p>{{ project.description }}</p>
             <b-link :href="project.link"
-              >Check it out! <LinkIcon style="color: #000;"
-            /></b-link>
+              >Check it out! </b-link>
           </b-card>
         </div>
       </div>
@@ -39,30 +39,6 @@ export default {
     return {
       projects: [
         {
-          title: "The Excellent Project",
-          tag: "The Excellent Project",
-          description:
-            "It feeds the current weather details of over 20,000 cites across the wide world",
-          image_cover: require("@/assets/WhatsApp Image 2023-06-23 at 11.02.27 PM.jpeg"),
-          link: "https://www.behance.net/gallery/165722659/Excellent-App"
-        },
-        {
-          title: "The Vulte Project",
-          tag: "The Redesign",
-          description:
-            "This app was tailored to help a particular user purchase wide range of gadgets from hasuqtek.com. It works like jumia.",
-          image_cover: require("@/assets/WhatsApp Image 2023-06-10 at 9.44.05 AM.jpeg"),
-          link: "https://www.behance.net/gallery/162716067/A-Redesign-of-Vulte-App"
-        },
-        {
-          title: "The Fike Project",
-          tag: "The Fike Project",
-          description:
-            "Does the operations of a regular mobile default calculator",
-          image_cover: require("@/assets/WhatsApp Image 2023-06-10 at 9.44.52 AM.jpeg"),
-          link: "https://www.behance.net/gallery/161704847/Fike-online-sneakers-store"
-        },
-        {
           title: "The FATEMSA Project",
           tag: "The FATEMSA Project",
           description:
@@ -70,6 +46,31 @@ export default {
           image_cover: require("@/assets/WhatsApp Image 2023-06-23 at 10.55.37 AM.jpeg"),
           link: "https://www.figma.com/proto/biykndMccRhQwOOODBSdWJ?node-id=33-732&starting-point-node-id=28:709&locale=en"
         },
+        {
+          title: "The Vulte Project",
+          tag: "The Redesign",
+          description:
+            "Conducted a research on a design study on how to improve the user experience of the Vulte app by Polaris bank. The goal was to identify areas of improvement and design solutions that would enhance the app’s usability and effectiveness.  .",
+          image_cover: require("@/assets/WhatsApp Image 2023-06-10 at 9.44.05 AM.jpeg"),
+          link: "https://www.behance.net/gallery/162716067/A-Redesign-of-Vulte-App"
+        },
+        {
+          title: "The Excellent Project",
+          tag: "The Excellent Project",
+          description:
+            "I took the initiative to create a comprehensive news app with a primary focus on combating the dissemination of fake and misleading news articles  across the internet.",
+          image_cover: require("@/assets/WhatsApp Image 2023-06-30 at 10.06.18 AM.jpeg"),
+          link: "https://www.behance.net/gallery/165722659/Excellent-App"
+        },
+        {
+          title: "The Fike Project",
+          tag: "The Fike Project",
+          description:
+            "Developed an e-commerce app dedicated to streamlining the process of buying and selling shoes, aiming to make it more convenient and accessible for users.",
+          image_cover: require("@/assets/WhatsApp Image 2023-06-10 at 9.44.52 AM.jpeg"),
+          link: "https://www.behance.net/gallery/161704847/Fike-online-sneakers-store"
+        },
+        
       ],
     };
   },
@@ -99,7 +100,7 @@ export default {
       {
         property: "og:description",
         content:
-          "View all the recents open-sourced projects built with ♥ by Adeshiina UmarFaruq, open-sourced means this project source code are publicly available for everyone to use or modify."
+          "View all the recents open-sourced projects built with ♥ by Adeshina UmarFaruq, open-sourced means this project source code are publicly available for everyone to use or modify."
       },
       {
         hid: "og:image",
@@ -111,6 +112,7 @@ export default {
 };
 </script>
 <style scoped>
+@import url('../styles.css');
 
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
@@ -120,6 +122,28 @@ html::-webkit-scrollbar-thumb,
 body::-webkit-scrollbar-thumb {
   background-color: red;
 }
+
+h2 {
+  margin-top: 0px !important;
+}
+
+img {
+  height: 15em;
+  /*max-height: 20em;*/
+}
+@media screen and (max-width: 425px) {
+  img {
+    width: 20em !important;
+    height: 15em;
+  }
+}
+/* @media screen and (min-width: 426px) and (max-width: 549px) { */
+@media screen and (min-width: 426px) {
+  img {
+    height: auto;
+  }
+}
+  
 .row {
   margin-top: 70px;
 }
@@ -136,4 +160,6 @@ hr.dope {
   margin-top: 7px;
   margin-left: 5px;
 }
+
+
 </style>

@@ -1,0 +1,14 @@
+@media screen and (max-device-width: 500px) {
+    img.project-cover#project-cover {
+      /* max-height: 15em !important;
+      min-height: unset !important;
+      display: none !important; */
+    }
+   
+  }
+
+
+  /* img.project-cover {
+    max-height: 15em !important;
+    min-height: unset !important;
+  } */

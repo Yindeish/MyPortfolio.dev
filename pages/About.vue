@@ -7,11 +7,17 @@
           
           <p>
             <br />
+            I am Umar-Faruq Adeshina, a product designer specializing in delivering intuitive and effective designs with a strong foundation in User Experience (UX). I find great satisfaction in understanding people and helping them overcome challenges through delightful and user-friendly products.
+            <br />
+            <br />
             To enhance my skills in UI design, I pursued a product design diploma course at AltSchool Africa. This experience provided me with invaluable insights into understanding user preferences, strategizing based on user research reports, and developing visually appealing designs that are both useful and usable.
+            <br />
             <br />
             In my role as a designer, I have collaborated with startups to create problem-solving designs. One of my notable achievements was contributing to the development of a platform that caters to the needs of Muslim students in the tech field. By deeply understanding their specific requirements, we created an effective and engaging platform, which has furthered my professional growth.
             <br />
+            <br />
             While I am deeply passionate about my work, I acknowledge the need to strike a balance between meticulous attention to detail and overall design success. I’m excited to see where my career takes me next and I’m always looking for opportunities to learn and grow.
+            <br />
             <br />
             During my leisure time, I indulge in watching football highlights and movies, with a particular fondness for K-dramas.
           </p>
@@ -21,13 +27,13 @@
               <ul style="list-style-type: circle;">
                 <li>Fiqma</li>
                 <li>Adobe XD</li>
-                <li>Adobe Illutrator</li>
+                <li>Miror</li>
                 <li>Dribble and Behance</li>
               </ul>
           </div>
         </div>
       </div>
-      <div class="col-md-6" style="position: fixed; right: 0px;">
+      <div class="col-md-6">
         <img
           src="@/assets/working.png"
           alt="About Illustration"
