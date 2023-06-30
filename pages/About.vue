@@ -30,6 +30,16 @@
                 <li>Miror</li>
                 <li>Dribble and Behance</li>
               </ul>
+            <b-button
+            class="action-btn animate__animated animate__wobble animate__delay-4s animate__fast"
+            style="background-color: dodgerblue; margin-left: 0px; padding: 0.8em 1.3em; margin-top: 18px; border: none;"
+            >
+            <a href="https://drive.google.com/file/d/1AgwrhQKaRejRRkOWIWpiJnUKH6fN57OI/view?usp=drivesdk" style="color: inherit;">
+              My Resume<span style="margin-left: 4px">></span>
+            </a>
+          </b-button>
+          <br />
+          <br />
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 <template>
   <b-navbar toggleable="lg" fixed="top" type="light" variant="light">
     <b-navbar-brand tag="h1" to="/" style="font-weight: bolder;"
-      ><span> UmarDesigner </span></b-navbar-brand
+      ><span> Umar Designer <svg class="logo" style="width: 20px; height: 20px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M443.9 128v256L218 512 0 384V169.7l87.6 45.1v117l133.5 75.5 135.8-75.5v-151l-101.1-57.6 87.6-53.1L443.9 128zM308.6 49.1L223.8 0l-88.6 54.8 86 47.3 87.4-53z"/></svg> </span></b-navbar-brand
     >
     <b-navbar-toggle
       target="nav-collapse"
@@ -66,6 +66,7 @@ export default {
         this.themeMode = "dark";
         document.body.style.backgroundImage = "url(/_nuxt/assets/bg.svg)";
         document.body.style.backgroundColor = "unset";
+        document.querySelector('.logo').style.fill = "#000";
 
       } else {
         localStorage.themeMode = "light";
@@ -77,6 +78,7 @@ export default {
         document.querySelector("nav").classList.toggle("bg-light");
         document.body.style.backgroundImage = "unset";
         document.body.style.backgroundColor = "#0A192F";
+        document.querySelector('.logo').style.fill = "#fff";
       }
     }
   },

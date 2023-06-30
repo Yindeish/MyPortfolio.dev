@@ -3,7 +3,7 @@
     <h2>Recent Projects</h2>
     <div class="container">
       <div class="row" v-for="(project, index) in projects" :key="index">
-        <div class="col-md-5">
+        <div class="col-md-5 image-wrapper">
           <img
             id="project-cover"
             :src="project.image_cover"
@@ -113,6 +113,13 @@ export default {
 </script>
 <style scoped>
 @import url('../styles.css');
+
+@media screen and (max-width: 425px) { 
+  .image-wrapper {
+    display: flex;
+    align-items: start;
+  }
+}
 
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
